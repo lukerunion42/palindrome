@@ -13,7 +13,7 @@ var a string
 var b string
 var c string
 
-func isPermutation(a string, b string) bool {
+func isPalindrome(a string, b string) bool {
 	//check if they are same length
 	if len(a) > len(b) || len(b) > len(a) {
 		return false
@@ -40,7 +40,7 @@ func main() {
 	b = "dog"
 	c = "red"
 
-	fmt.Println(isPermutation(a, b))
-	fmt.Println(isPermutation(b, c))
+	fmt.Println(isPalindrome(a, b))
+	fmt.Println(isPalindrome(b, c))
 
 }
